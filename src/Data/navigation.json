@@ -1,0 +1,63 @@
+{
+  "navigations": [
+    {
+      "id": 1,
+      "title": "home",
+      "link": "/",
+      "submenu": false
+
+    },
+    {
+      "id": 71,
+      "title": "About Us",
+      "link": "/about",
+      "submenu": false
+    },
+    {
+      "id": 71,
+      "title": "Categories",
+      "link": "#",
+      "submenu": true,
+      "items": [
+        {
+          "id": 21,
+          "title": "Politics",
+          "link": "/politics"
+        },
+        {
+          "id": 23,
+          "title": "Sports",
+          "link": "/sports"
+        },
+        {
+          "id": 24,
+          "title": "Entertainment",
+          "link": "/entertainment"
+        },
+        {
+          "id": 26,
+          "title": "Education",
+          "link": "/education"
+        },
+        {
+          "id": 29,
+          "title": "Technology",
+          "link": "/technology"
+        }
+      ]
+    },
+    
+    {
+      "id": 777811,
+      "title": "Contact Us",
+      "link": "/contact",
+      "submenu": false
+    },
+    {
+      "id": 75,
+      "title": "Login",
+      "link": "/admin/login",
+      "submenu": false
+    }
+  ]
+}
