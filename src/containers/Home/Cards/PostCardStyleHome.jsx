@@ -12,7 +12,7 @@ function PostCardStyleHome(props) {
   const getImageSource = () => {
     // Assuming your Flask API serves images from 'http://localhost:5000/api/v1/content/uploads/'
     // Adjust this base URL according to your Flask server configuration
-    const baseUrl = 'http://localhost:5000/api/v1/content/';
+    const baseUrl = 'https://invix-backend-group-work.onrender.comapi/v1/content/';
 
     // Check if image path is available
     if (datas.image) {

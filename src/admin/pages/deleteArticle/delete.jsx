@@ -13,7 +13,7 @@ const DeleteArticle = () => {
 
         try {
             // Example: Send delete request to server
-            const response = await fetch('http://127.0.0.1:5000/api/v1/articles/delete_article', {
+            const response = await fetch('https://invix-backend-group-work.onrender.com/api/v1/articles/delete_article', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

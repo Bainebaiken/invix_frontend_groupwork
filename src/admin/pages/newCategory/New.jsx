@@ -90,7 +90,7 @@ const New = () => {
         name: name
       };
 
-      const createResponse = await fetch('http://127.0.0.1:5000//api/v1/categories/create_category', {
+      const createResponse = await fetch('https://invix-backend-group-work.onrender.com//api/v1/categories/create_category', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

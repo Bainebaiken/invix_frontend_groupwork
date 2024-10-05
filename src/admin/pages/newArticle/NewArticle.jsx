@@ -62,7 +62,7 @@ const New = () => {
         date: date
       };
 
-      const createResponse = await fetch('http://127.0.0.1:5000/api/v1/articles/register', {
+      const createResponse = await fetch('https://invix-backend-group-work.onrender.com/api/v1/articles/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

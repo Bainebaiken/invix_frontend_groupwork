@@ -100,7 +100,7 @@ const New = () => {
     //     window.location.href = "/admin/article"; // Redirect to dashboard or any other page
     // }
 
-      const createResponse = await fetch('http://127.0.0.1:5000/api/v1/auth/register', {
+      const createResponse = await fetch('https://invix-backend-group-work.onrender.com/api/v1/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -3,7 +3,7 @@ import React from 'react';
 const UserTable = ({ users, setUsers }) => {
   const deleteUser = async (id) => {
     try {
-      await fetch(`http://127.0.0.1:5000/api/v1/auth/delete/${id}`, {
+      await fetch(`https://invix-backend-group-work.onrender.com/api/v1/auth/delete/${id}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`

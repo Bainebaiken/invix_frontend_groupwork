@@ -10,7 +10,7 @@ const AdminDashboard = () => {
 
   useEffect(() => {
     // Fetch users
-    fetch('http://127.0.0.1:5000/api/v1/auth/users', {
+    fetch('https://invix-backend-group-work.onrender.com/api/v1/auth/users', {
       headers: {
         'Authorization': `Bearer ${localStorage.getItem('token')}`,
       },
@@ -32,7 +32,7 @@ const AdminDashboard = () => {
       .catch((error) => console.error('Error fetching users:', error));
 
     // Fetch articles
-    fetch('http://127.0.0.1:5000/api/v1/articles/articles', {
+    fetch('https://invix-backend-group-work.onrender.com/api/v1/articles/articles', {
       headers: {
         'Authorization': `Bearer ${localStorage.getItem('token')}`,
       },

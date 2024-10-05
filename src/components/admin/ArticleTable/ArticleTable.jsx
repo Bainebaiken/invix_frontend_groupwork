@@ -3,7 +3,7 @@ import React from 'react';
 const ArticleTable = ({ articles, setArticles }) => {
   const deleteArticle = async (id) => {
     try {
-      await fetch(`http://127.0.0.1:5000/api/v1/articles/${id}`, {
+      await fetch(`https://invix-backend-group-work.onrender.comapi/v1/articles/${id}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`

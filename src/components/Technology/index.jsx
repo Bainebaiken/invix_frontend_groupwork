@@ -18,7 +18,7 @@ function Home() {
     const fetchData = async () => {
       try {
         // Below Call the endpoint for fetching articles
-        const response = await fetch('http://127.0.0.1:5000/api/v1/articles/get_technology');
+        const response = await fetch('https://invix-backend-group-work.onrender.com/api/v1/articles/get_technology');
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
